@@ -1,6 +1,5 @@
-// Audio Pipe - Transfer audio data to the XEM7320 FMRadio sample through
-// a FrontPanel Pipe endpoint.
-//
+// Audio Pipe - Transfer audio data to the XEM7320 signal generator
+// sample through a FrontPanel Pipe endpoint.
 //------------------------------------------------------------------------
 // Copyright (c) 2014-2018 Opal Kelly Incorporated
 // 

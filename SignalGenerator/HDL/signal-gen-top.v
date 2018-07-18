@@ -1,10 +1,9 @@
 //------------------------------------------------------------------------
-// fmradio-top.v
+// signal-gen-top.v
 //
-// This is the top level module for the XEM7320 FMRadio sample. This module
-// interfaces between the DAC itself and the audio sources (a FrontPanel
-// PipeIn endpoint and an ADC PMOD).
-// 
+// This is the top level module for the XEM7320 signal generator sample.
+// This module interfaces between the DAC itself and the audio sources 
+// (a FrontPanel PipeIn endpoint and an ADC PMOD).
 //------------------------------------------------------------------------
 // Copyright (c) 2018 Opal Kelly Incorporated
 // 

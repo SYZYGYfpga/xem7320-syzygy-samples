@@ -1,9 +1,7 @@
 ############################################################################
 # XEM7320 - Xilinx constraints file
 #
-# Pin mappings for the XEM7320.  Use this as a template and comment out 
-# the pins that are not used in your design.  (By default, map will fail
-# if this file contains constraints for signals not in your design).
+# Pin mappings for the XEM7320 signal generator example.
 #
 # Copyright (c) 2004-2018 Opal Kelly Incorporated
 ############################################################################
