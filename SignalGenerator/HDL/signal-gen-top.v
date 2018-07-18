@@ -29,7 +29,7 @@
 
 `default_nettype none
 
-module transmitter_top(
+module signal_gen_top(
 	// FrontPanel Connections
 	input  wire [4:0]  okUH,
 	output wire [3:0]  okHU,
