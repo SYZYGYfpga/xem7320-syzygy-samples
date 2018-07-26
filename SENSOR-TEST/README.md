@@ -1,18 +1,18 @@
-# XEM7320 SYZYGY POD-SENSOR Sample
+# XEM7320 SZG-SENSOR Sample
 
 ## Overview
 
-The POD-SENSOR sample project is designed to demonstrate use of the POD-SENSOR
+The SZG-SENSOR sample project is designed to demonstrate use of the SZG-SENSOR
 SYZYGY peripheral from Opal Kelly. This sample assumes the peripheral is
 connected to PORT A on the XEM7320.
 
-Hardware interfaces to each sensor on the pod are implemented in the FPGA
-fabric. These interfaces are connected to the FrontPanel interface enabling
-simple software control of each device through the FrontPanelAPI.
+Hardware interfaces to each sensor on the peripheral are implemented in the
+FPGA fabric. These interfaces are connected to the FrontPanel interface
+enabling simple software control of each device through the FrontPanelAPI.
 
 A sample Python script `pod-sensor.py` is provided. This script uses the
 FrontPanelAPI to demonstrate basic communication with each of the sensors
-on the POD-SENSOR board. 
+on the SZG-SENSOR board. 
 
 ## FPGA Design
 
