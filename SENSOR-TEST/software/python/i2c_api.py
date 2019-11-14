@@ -100,8 +100,7 @@ class I2C:
         # Wait for transaction to finish
         for i in range(0, I2C_MAX_TIMEOUT_MS//10):
             self.m_dev.UpdateTriggerOuts()
-            if (0 == self.m_dev.IsTriggered(I2C_TRIGOUT,
-                                            (1 << I2C_TRIGOUT_DONE))):
+            if (self.m_dev.IsTriggered(I2C_TRIGOUT, (1 << I2C_TRIGOUT_DONE))):
                 return
 
             time.sleep(0.01)
